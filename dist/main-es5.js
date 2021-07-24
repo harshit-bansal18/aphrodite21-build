@@ -442,7 +442,7 @@
             var _this4 = this;
 
             if (this.sections[i].redirect === true) {
-              window.location.href = this.sections[i].link;
+              window.open(this.sections[i].link, '_blank');
               return;
             }
 
@@ -1675,7 +1675,7 @@
           this.mobile = window.innerWidth < 540;
           this.pages = [];
 
-          for (var i = 1; i <= 44; i++) {
+          for (var i = 1; i <= 46; i++) {
             if (i < 10) {
               this.pages.push(i);
             } else {
@@ -1741,7 +1741,7 @@
         }, {
           key: "after",
           value: function after() {
-            if (this.page !== '44') {
+            if (this.page !== '46') {
               this.router.navigate(['brochure', parseInt(this.page, 10) + 1]);
 
               if (this.mobile) {
@@ -1764,7 +1764,7 @@
               this.before();
             }
 
-            if (event.keyCode === 39 && this.page !== '44') {
+            if (event.keyCode === 39 && this.page !== '46') {
               this.after();
             }
           }
@@ -1825,7 +1825,7 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.page && ctx.page !== "44");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.page && ctx.page !== "46");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
@@ -4858,7 +4858,7 @@
         }, {
           key: "goToInflucencers",
           value: function goToInflucencers() {
-            window.location.href = 'https://influencers-a0c05.firebaseapp.com/';
+            window.open('https://influencers-a0c05.firebaseapp.com/', '_blank');
           }
         }]);
 

@@ -243,7 +243,7 @@ class LandingComponent {
     }
     go(i) {
         if (this.sections[i].redirect === true) {
-            window.location.href = this.sections[i].link;
+            window.open(this.sections[i].link, '_blank');
             return;
         }
         if (this.mobile) {
@@ -865,7 +865,7 @@ class BrochureComponent {
         this.page = null;
         this.mobile = window.innerWidth < 540;
         this.pages = [];
-        for (let i = 1; i <= 44; i++) {
+        for (let i = 1; i <= 46; i++) {
             if (i < 10) {
                 this.pages.push(i);
             }
@@ -917,7 +917,7 @@ class BrochureComponent {
         }
     }
     after() {
-        if (this.page !== '44') {
+        if (this.page !== '46') {
             this.router.navigate(['brochure', parseInt(this.page, 10) + 1]);
             if (this.mobile) {
                 this.left = -33 * (parseInt(this.page, 10) - 1) + 150;
@@ -934,7 +934,7 @@ class BrochureComponent {
         if (event.keyCode === 37 && this.page !== '1') {
             this.before();
         }
-        if (event.keyCode === 39 && this.page !== '44') {
+        if (event.keyCode === 39 && this.page !== '46') {
             this.after();
         }
     }
@@ -961,7 +961,7 @@ BrochureComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.page && ctx.page !== "1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.page && ctx.page !== "44");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.page && ctx.page !== "46");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.page);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
@@ -2640,7 +2640,7 @@ class InfluencersComponent {
     ngOnInit() {
     }
     goToInflucencers() {
-        window.location.href = 'https://influencers-a0c05.firebaseapp.com/';
+        window.open('https://influencers-a0c05.firebaseapp.com/', '_blank');
     }
 }
 InfluencersComponent.ɵfac = function InfluencersComponent_Factory(t) { return new (t || InfluencersComponent)(); };

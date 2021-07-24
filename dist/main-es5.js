@@ -3175,7 +3175,7 @@
           // linkedin: 'https://www.linkedin.com/in/abhishek-kala-798776199/',
           // row: 1
           // },
-          //'https://drive.google.com/uc?export=view&id=1Weo8lzPHmmaIZoOOVirIKVhmlNlqMxGJ
+          //'https://drive.google.com/uc?export=view&id=1Es9qb2vTRkEmVy868lhoGVAGYi14GRRk
           {
             name: 'Pranay Agrawal',
             post: 'Head, Events & Competitions',
@@ -3319,7 +3319,7 @@
           }, {
             name: 'Umang Chandak',
             post: 'Festival Coordinator',
-            image: '',
+            image: 'https://drive.google.com/uc?export=view&id=1Es9qb2vTRkEmVy868lhoGVAGYi14GRRk',
             fb_userid: 'https://www.facebook.com/umang.chandak23',
             phone: '+918482891976',
             gmail: 'umang.chandak12@gmail.com',
@@ -3861,28 +3861,31 @@
         function EnquiryComponent() {
           _classCallCheck(this, EnquiryComponent);
 
-          this.contacts = [{
-            name: 'Ashutosh Bajpai',
-            post: 'Manager, Hospitality & Transport',
-            number: '+91 9140608926',
-            email: 'ashubajpai54@gmail.com',
-            fblink: '',
-            linkedin: ''
-          }, {
-            name: 'Dipak Miglani',
-            post: 'Manager, Hospitality & Transport',
-            number: '+91 9582248438',
-            email: 'dipakmiglani5@gmail.com',
-            fblink: '',
-            linkedin: ''
-          }, {
-            name: 'Bhavan Soni',
-            post: 'Manager, Hospitality & Transport',
-            number: '+91 7688858123',
-            email: 'bhavansoni2000@gmail.com',
-            fblink: '',
-            linkedin: ''
-          }, {
+          this.contacts = [// {
+          //   name: 'Ashutosh Bajpai',
+          //   post: 'Manager, Hospitality & Transport',
+          //   number: '+91 9140608926',
+          //   email: 'ashubajpai54@gmail.com',
+          //   fblink:'',
+          //   linkedin:''
+          // },
+          // {
+          //   name: 'Dipak Miglani',
+          //   post: 'Manager, Hospitality & Transport',
+          //   number: '+91 9582248438',
+          //   email: 'dipakmiglani5@gmail.com',
+          //   fblink:'',
+          //   linkedin:''
+          // },
+          // {
+          //   name: 'Bhavan Soni',
+          //   post: 'Manager, Hospitality & Transport',
+          //   number: '+91 7688858123',
+          //   email: 'bhavansoni2000@gmail.com',
+          //   fblink:'',
+          //   linkedin:''
+          // },
+          {
             name: 'Shobhit Singh',
             post: 'Manager, Hospitality & Transport',
             number: '+91 8743943887',

@@ -158,7 +158,7 @@ class LandingComponent {
                 heading: 'Influencers',
                 description: "Antaragni is always about unforetold tales and mysteries. The Antaragni Influencer Program is another milestone in bringing forth new prosperous relationships and letting the phoenix spread its wing.",
                 link: 'https://influencers-a0c05.firebaseapp.com/',
-                background: '/assets/bgs/influencers.jpg',
+                background: '/assets/bgs/influencers.png',
                 redirect: true
             },
             {
@@ -687,7 +687,7 @@ class MenuComponent {
             },
             {
                 name: 'fa fa-instagram',
-                url: 'https://www.instagram.com/antaragni_iitk',
+                url: 'https://www.instagram.com/antaragni.iitkanpur/',
             },
             { name: 'fa fa-twitter', url: 'https://www.twitter.com/antaragni' },
         ];
@@ -1383,16 +1383,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function ContactsComponent_div_6_app_contact_2_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "app-contact", 9);
+function ContactsComponent_div_2_app_contact_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "app-contact", 7);
 } if (rf & 2) {
     const contact_r5 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("contact", contact_r5);
 } }
-function ContactsComponent_div_6_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](2, ContactsComponent_div_6_app_contact_2_Template, 1, 1, "app-contact", 8);
+function ContactsComponent_div_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](2, ContactsComponent_div_2_app_contact_2_Template, 1, 1, "app-contact", 6);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](3, " --> ");
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -1403,11 +1403,11 @@ function ContactsComponent_div_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", row_r2);
 } }
-function ContactsComponent_div_10_div_3_Template(rf, ctx) { if (rf & 1) {
+function ContactsComponent_div_6_div_3_Template(rf, ctx) { if (rf & 1) {
     const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 14);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function ContactsComponent_div_10_div_3_Template_div_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r10); const i_r8 = ctx.index; const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](2); return ctx_r9.scrollTo(i_r8); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function ContactsComponent_div_6_div_3_Template_div_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r10); const i_r8 = ctx.index; const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](2); return ctx_r9.scrollTo(i_r8); });
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
@@ -1420,11 +1420,11 @@ function ContactsComponent_div_10_div_3_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", post_r7, " ");
 } }
-function ContactsComponent_div_10_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "div", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](3, ContactsComponent_div_10_div_3_Template, 3, 3, "div", 13);
+function ContactsComponent_div_6_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "div", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](3, ContactsComponent_div_6_div_3_Template, 3, 3, "div", 11);
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1913,27 +1913,21 @@ class ContactsComponent {
 ContactsComponent.ɵfac = function ContactsComponent_Factory(t) { return new (t || ContactsComponent)(); };
 ContactsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: ContactsComponent, selectors: [["app-contacts"]], hostBindings: function ContactsComponent_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("keydown", function ContactsComponent_keydown_HostBindingHandler($event) { return ctx.onKeydownHandler($event); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵresolveDocument"]);
-    } }, decls: 11, vars: 7, consts: [[1, "big"], [1, "heading"], [1, "head"], ["fxLayout", "row", "fxLayout.xs", "column", 1, "wrapper", 3, "ngStyle"], ["class", "cards", "fxLayout", "row", "fxLayoutAlign", "center center", 3, "id", 4, "ngFor", "ngForOf"], ["class", "mapping", "fxLayout", "column", "fxLayoutAlign", "center center", "fxLayoutGap", "1vh", 4, "ngIf"], ["fxLayout", "row", "fxLayoutAlign", "center center", 1, "cards", 3, "id"], ["fxLayout", "row wrap", "fxLayoutAlign", "center center", "fxLayoutGap", "5vw", "fxLayoutGap.xs", "0"], ["class", "contact", 3, "contact", 4, "ngFor", "ngForOf"], [1, "contact", 3, "contact"], ["fxLayout", "column", "fxLayoutAlign", "center center", "fxLayoutGap", "1vh", 1, "mapping"], [1, "rule"], ["fxLayout", "column", "fxLayoutGap", "5vh"], [4, "ngFor", "ngForOf"], [1, "post", 3, "click"]], template: function ContactsComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 7, vars: 7, consts: [[1, "big"], ["fxLayout", "row", "fxLayout.xs", "column", 1, "wrapper", 3, "ngStyle"], ["class", "cards", "fxLayout", "row", "fxLayoutAlign", "center center", 3, "id", 4, "ngFor", "ngForOf"], ["class", "mapping", "fxLayout", "column", "fxLayoutAlign", "center center", "fxLayoutGap", "1vh", 4, "ngIf"], ["fxLayout", "row", "fxLayoutAlign", "center center", 1, "cards", 3, "id"], ["fxLayout", "row wrap", "fxLayoutAlign", "center center", "fxLayoutGap", "5vw", "fxLayoutGap.xs", "0"], ["class", "contact", 3, "contact", 4, "ngFor", "ngForOf"], [1, "contact", 3, "contact"], ["fxLayout", "column", "fxLayoutAlign", "center center", "fxLayoutGap", "1vh", 1, "mapping"], [1, "rule"], ["fxLayout", "column", "fxLayoutGap", "5vh"], [4, "ngFor", "ngForOf"], [1, "post", 3, "click"]], template: function ContactsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "h1", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](3, "Thank");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](2, ContactsComponent_div_2_Template, 4, 2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipe"](3, "async");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, " --> ");
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, " You");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](5, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](6, ContactsComponent_div_6_Template, 4, 2, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipe"](7, "async");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](8, " --> ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](9, " --> ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](10, ContactsComponent_div_10_Template, 4, 1, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](5, " --> ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](6, ContactsComponent_div_6_Template, 4, 1, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction1"](5, _c0, ctx.top + "vw"));
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind1"](7, 3, ctx.ncontacts));
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind1"](3, 3, ctx.ncontacts));
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", !ctx.mobile);
     } }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_4__["DefaultLayoutDirective"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgStyle"], _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_6__["DefaultStyleDirective"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_4__["DefaultLayoutAlignDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_4__["DefaultLayoutGapDirective"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_7__["ContactComponent"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["AsyncPipe"]], styles: [".big[_ngcontent-%COMP%] {\n    position: fixed;\n    top: 0;\n    left: 0;\n    margin: 0;\n    width: 100vw;\n    height: 100vh;\n    background-image:url('/assets/bgs/team.jpg');\n    background-size: cover;\n    background-position: center center;\n    overflow: hidden;\n    will-change: top;\n    transition: top 0.5s ease-out;\n}\n\n.wrapper[_ngcontent-%COMP%] {\n    position: absolute;\n    transition: 0.5s ease;\n    will-change: left;\n    overflow: hidden;\n}\n\nh1[_ngcontent-%COMP%] {\n    position: fixed;\n    width: 100%;\n    text-align: center;\n    top: 7vh;\n    margin: 0;\n    z-index: 999 !important;\n    color: white;\n    font-size: 5em;\n    text-transform: uppercase;\n}\n\n.cards[_ngcontent-%COMP%] {\n    width: 100vw;\n    height: 100vh;\n    overflow-x: hidden;\n    margin: 0;\n    padding-left: 14vw;\n}\n\n.mapping[_ngcontent-%COMP%] {\n    position: fixed;\n    top: 0;\n    left: 0;\n    height: 100vh;\n    color: white;\n    padding: 0 2vw;\n    padding-top: 11.5vh;\n    width: auto;\n    font-size: 2.3vh;\n    background-color: #02093d80;\n    z-index: 999999 !important;\n}\n\n.rule[_ngcontent-%COMP%] {\n    position: fixed;\n    top: 0;\n    height: 100vh;\n    left: 1vw;\n    width: 2px;\n    background-color: red;\n}\n\n.post[_ngcontent-%COMP%] {\n    z-index: 9999 !important;\n    width: 13vw;\n    cursor: pointer;\n    position: relative;\n}\n\n.post[_ngcontent-%COMP%]:hover {\n    font-weight: bold;\n}\n\n.post[_ngcontent-%COMP%]:hover::before {\n    position: absolute;\n    content: \"\";\n    display: block;\n    top: 0;\n    bottom: 0;\n    border: 4px red solid;\n    left: calc(-1vw - 2px);\n}\n\n.ispe[_ngcontent-%COMP%] {\n    font-weight: bold;\n    cursor: default;\n}\n\n.ispe[_ngcontent-%COMP%]::before {\n    position: absolute;\n    content: \"\";\n    display: block;\n    top: 0;\n    bottom: 0;\n    border: 4px red solid;\n    left: calc(-1vw - 2px);\n}\n\nh1[_ngcontent-%COMP%], .wrapper[_ngcontent-%COMP%], .mapping[_ngcontent-%COMP%] {\n    -webkit-animation: open 0.3s;\n            animation: open 0.3s;\n}\n\n.head[_ngcontent-%COMP%] {\n    color: #aa1e32;\n}\n\n@media only screen and (max-width: 500px) {\n    h1[_ngcontent-%COMP%] {\n        margin-top: 14vh;\n        position: static;\n        margin-bottom: 20px;\n        z-index: 999 !important;\n        font-size: 7vh;\n        padding-left: 0vw;\n    }\n    .cards[_ngcontent-%COMP%] {\n        width: auto;\n        height: auto;\n        padding-top: 5vh;\n        padding-left: 0;\n    }\n    .wrapper[_ngcontent-%COMP%] {\n        overflow-y: scroll;\n        padding-bottom: 10vh;\n    }\n    .big[_ngcontent-%COMP%] {\n        overflow: scroll;\n    }\n    .contact[_ngcontent-%COMP%] {\n        margin-bottom: 5vh;\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbnRhY3RzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxlQUFlO0lBQ2YsTUFBTTtJQUNOLE9BQU87SUFDUCxTQUFTO0lBQ1QsWUFBWTtJQUNaLGFBQWE7SUFDYiw0Q0FBNEM7SUFDNUMsc0JBQXNCO0lBQ3RCLGtDQUFrQztJQUNsQyxnQkFBZ0I7SUFDaEIsZ0JBQWdCO0lBQ2hCLDZCQUE2QjtBQUNqQzs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsaUJBQWlCO0lBQ2pCLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLGVBQWU7SUFDZixXQUFXO0lBQ1gsa0JBQWtCO0lBQ2xCLFFBQVE7SUFDUixTQUFTO0lBQ1QsdUJBQXVCO0lBQ3ZCLFlBQVk7SUFDWixjQUFjO0lBQ2QseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0ksWUFBWTtJQUNaLGFBQWE7SUFDYixrQkFBa0I7SUFDbEIsU0FBUztJQUNULGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGVBQWU7SUFDZixNQUFNO0lBQ04sT0FBTztJQUNQLGFBQWE7SUFDYixZQUFZO0lBQ1osY0FBYztJQUNkLG1CQUFtQjtJQUNuQixXQUFXO0lBQ1gsZ0JBQWdCO0lBQ2hCLDJCQUEyQjtJQUMzQiwwQkFBMEI7QUFDOUI7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsTUFBTTtJQUNOLGFBQWE7SUFDYixTQUFTO0lBQ1QsVUFBVTtJQUNWLHFCQUFxQjtBQUN6Qjs7QUFFQTtJQUNJLHdCQUF3QjtJQUN4QixXQUFXO0lBQ1gsZUFBZTtJQUNmLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsY0FBYztJQUNkLE1BQU07SUFDTixTQUFTO0lBQ1QscUJBQXFCO0lBQ3JCLHNCQUFzQjtBQUMxQjs7QUFFQTtJQUNJLGlCQUFpQjtJQUNqQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxjQUFjO0lBQ2QsTUFBTTtJQUNOLFNBQVM7SUFDVCxxQkFBcUI7SUFDckIsc0JBQXNCO0FBQzFCOztBQUVBOzs7SUFHSSw0QkFBb0I7WUFBcEIsb0JBQW9CO0FBQ3hCOztBQUVBO0lBQ0ksY0FBYztBQUNsQjs7QUFFQTtJQUNJO1FBQ0ksZ0JBQWdCO1FBQ2hCLGdCQUFnQjtRQUNoQixtQkFBbUI7UUFDbkIsdUJBQXVCO1FBQ3ZCLGNBQWM7UUFDZCxpQkFBaUI7SUFDckI7SUFDQTtRQUNJLFdBQVc7UUFDWCxZQUFZO1FBQ1osZ0JBQWdCO1FBQ2hCLGVBQWU7SUFDbkI7SUFDQTtRQUNJLGtCQUFrQjtRQUNsQixvQkFBb0I7SUFDeEI7SUFDQTtRQUNJLGdCQUFnQjtJQUNwQjtJQUNBO1FBQ0ksa0JBQWtCO0lBQ3RCO0FBQ0oiLCJmaWxlIjoiY29udGFjdHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5iaWcge1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDA7XG4gICAgbGVmdDogMDtcbiAgICBtYXJnaW46IDA7XG4gICAgd2lkdGg6IDEwMHZ3O1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgYmFja2dyb3VuZC1pbWFnZTp1cmwoJy9hc3NldHMvYmdzL3RlYW0uanBnJyk7XG4gICAgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXIgY2VudGVyO1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG4gICAgd2lsbC1jaGFuZ2U6IHRvcDtcbiAgICB0cmFuc2l0aW9uOiB0b3AgMC41cyBlYXNlLW91dDtcbn1cblxuLndyYXBwZXIge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0cmFuc2l0aW9uOiAwLjVzIGVhc2U7XG4gICAgd2lsbC1jaGFuZ2U6IGxlZnQ7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcbn1cblxuaDEge1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB3aWR0aDogMTAwJTtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgdG9wOiA3dmg7XG4gICAgbWFyZ2luOiAwO1xuICAgIHotaW5kZXg6IDk5OSAhaW1wb3J0YW50O1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgICBmb250LXNpemU6IDVlbTtcbiAgICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xufVxuXG4uY2FyZHMge1xuICAgIHdpZHRoOiAxMDB2dztcbiAgICBoZWlnaHQ6IDEwMHZoO1xuICAgIG92ZXJmbG93LXg6IGhpZGRlbjtcbiAgICBtYXJnaW46IDA7XG4gICAgcGFkZGluZy1sZWZ0OiAxNHZ3O1xufVxuXG4ubWFwcGluZyB7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogMDtcbiAgICBsZWZ0OiAwO1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgY29sb3I6IHdoaXRlO1xuICAgIHBhZGRpbmc6IDAgMnZ3O1xuICAgIHBhZGRpbmctdG9wOiAxMS41dmg7XG4gICAgd2lkdGg6IGF1dG87XG4gICAgZm9udC1zaXplOiAyLjN2aDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDIwOTNkODA7XG4gICAgei1pbmRleDogOTk5OTk5ICFpbXBvcnRhbnQ7XG59XG5cbi5ydWxlIHtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiAwO1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgbGVmdDogMXZ3O1xuICAgIHdpZHRoOiAycHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmVkO1xufVxuXG4ucG9zdCB7XG4gICAgei1pbmRleDogOTk5OSAhaW1wb3J0YW50O1xuICAgIHdpZHRoOiAxM3Z3O1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG59XG5cbi5wb3N0OmhvdmVyIHtcbiAgICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuLnBvc3Q6aG92ZXI6OmJlZm9yZSB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGNvbnRlbnQ6IFwiXCI7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgdG9wOiAwO1xuICAgIGJvdHRvbTogMDtcbiAgICBib3JkZXI6IDRweCByZWQgc29saWQ7XG4gICAgbGVmdDogY2FsYygtMXZ3IC0gMnB4KTtcbn1cblxuLmlzcGUge1xuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xuICAgIGN1cnNvcjogZGVmYXVsdDtcbn1cblxuLmlzcGU6OmJlZm9yZSB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGNvbnRlbnQ6IFwiXCI7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgdG9wOiAwO1xuICAgIGJvdHRvbTogMDtcbiAgICBib3JkZXI6IDRweCByZWQgc29saWQ7XG4gICAgbGVmdDogY2FsYygtMXZ3IC0gMnB4KTtcbn1cblxuaDEsXG4ud3JhcHBlcixcbi5tYXBwaW5nIHtcbiAgICBhbmltYXRpb246IG9wZW4gMC4zcztcbn1cblxuLmhlYWQge1xuICAgIGNvbG9yOiAjYWExZTMyO1xufVxuXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDUwMHB4KSB7XG4gICAgaDEge1xuICAgICAgICBtYXJnaW4tdG9wOiAxNHZoO1xuICAgICAgICBwb3NpdGlvbjogc3RhdGljO1xuICAgICAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICAgICAgICB6LWluZGV4OiA5OTkgIWltcG9ydGFudDtcbiAgICAgICAgZm9udC1zaXplOiA3dmg7XG4gICAgICAgIHBhZGRpbmctbGVmdDogMHZ3O1xuICAgIH1cbiAgICAuY2FyZHMge1xuICAgICAgICB3aWR0aDogYXV0bztcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgICBwYWRkaW5nLXRvcDogNXZoO1xuICAgICAgICBwYWRkaW5nLWxlZnQ6IDA7XG4gICAgfVxuICAgIC53cmFwcGVyIHtcbiAgICAgICAgb3ZlcmZsb3cteTogc2Nyb2xsO1xuICAgICAgICBwYWRkaW5nLWJvdHRvbTogMTB2aDtcbiAgICB9XG4gICAgLmJpZyB7XG4gICAgICAgIG92ZXJmbG93OiBzY3JvbGw7XG4gICAgfVxuICAgIC5jb250YWN0IHtcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogNXZoO1xuICAgIH1cbn1cbiJdfQ== */"] });
@@ -2143,7 +2137,7 @@ class EnquiryComponent {
             // },
             {
                 name: 'Shobhit Singh',
-                post: 'Manager, Hospitality & Transport',
+                post: 'Organizer, Hospitality & Transport',
                 number: '8743943887',
                 email: 'singhshobhit304@gmail.com',
                 fblink: '',
@@ -2152,7 +2146,7 @@ class EnquiryComponent {
             },
             {
                 name: 'Mayank Sarwa',
-                post: 'Manager, Hospitality & Transport',
+                post: 'Organizer, Hospitality & Transport',
                 number: '9079035719',
                 email: 'sarwamayank@gmail.com',
                 fblink: '',

@@ -342,7 +342,7 @@
             heading: 'Influencers',
             description: "Antaragni is always about unforetold tales and mysteries. The Antaragni Influencer Program is another milestone in bringing forth new prosperous relationships and letting the phoenix spread its wing.",
             link: 'https://influencers-a0c05.firebaseapp.com/',
-            background: '/assets/bgs/influencers.jpg',
+            background: '/assets/bgs/influencers.png',
             redirect: true
           }, {
             heading: 'Past Sponsors',
@@ -1243,7 +1243,7 @@
             url: 'https://www.youtube.com/user/antaragniiitkanpur'
           }, {
             name: 'fa fa-instagram',
-            url: 'https://www.instagram.com/antaragni_iitk'
+            url: 'https://www.instagram.com/antaragni.iitkanpur/'
           }, {
             name: 'fa fa-twitter',
             url: 'https://www.twitter.com/antaragni'
@@ -2821,9 +2821,9 @@
       "G2Gn"); // import * as _ from 'lodash';
 
 
-      function ContactsComponent_div_6_app_contact_2_Template(rf, ctx) {
+      function ContactsComponent_div_2_app_contact_2_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "app-contact", 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](0, "app-contact", 7);
         }
 
         if (rf & 2) {
@@ -2833,13 +2833,13 @@
         }
       }
 
-      function ContactsComponent_div_6_Template(rf, ctx) {
+      function ContactsComponent_div_2_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 4);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 5);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](2, ContactsComponent_div_6_app_contact_2_Template, 1, 1, "app-contact", 8);
+          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](2, ContactsComponent_div_2_app_contact_2_Template, 1, 1, "app-contact", 6);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 
@@ -2860,15 +2860,15 @@
         }
       }
 
-      function ContactsComponent_div_10_div_3_Template(rf, ctx) {
+      function ContactsComponent_div_6_div_3_Template(rf, ctx) {
         if (rf & 1) {
           var _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵgetCurrentView"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 14);
+          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 12);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function ContactsComponent_div_10_div_3_Template_div_click_1_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function ContactsComponent_div_6_div_3_Template_div_click_1_listener() {
             _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r10);
 
             var i_r8 = ctx.index;
@@ -2901,15 +2901,15 @@
         }
       }
 
-      function ContactsComponent_div_10_Template(rf, ctx) {
+      function ContactsComponent_div_6_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 8);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "div", 11);
+          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "div", 9);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "div", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "div", 10);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](3, ContactsComponent_div_10_div_3_Template, 3, 3, "div", 13);
+          _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](3, ContactsComponent_div_6_div_3_Template, 3, 3, "div", 11);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 
@@ -3416,50 +3416,38 @@
             }, false, _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵresolveDocument"]);
           }
         },
-        decls: 11,
+        decls: 7,
         vars: 7,
-        consts: [[1, "big"], [1, "heading"], [1, "head"], ["fxLayout", "row", "fxLayout.xs", "column", 1, "wrapper", 3, "ngStyle"], ["class", "cards", "fxLayout", "row", "fxLayoutAlign", "center center", 3, "id", 4, "ngFor", "ngForOf"], ["class", "mapping", "fxLayout", "column", "fxLayoutAlign", "center center", "fxLayoutGap", "1vh", 4, "ngIf"], ["fxLayout", "row", "fxLayoutAlign", "center center", 1, "cards", 3, "id"], ["fxLayout", "row wrap", "fxLayoutAlign", "center center", "fxLayoutGap", "5vw", "fxLayoutGap.xs", "0"], ["class", "contact", 3, "contact", 4, "ngFor", "ngForOf"], [1, "contact", 3, "contact"], ["fxLayout", "column", "fxLayoutAlign", "center center", "fxLayoutGap", "1vh", 1, "mapping"], [1, "rule"], ["fxLayout", "column", "fxLayoutGap", "5vh"], [4, "ngFor", "ngForOf"], [1, "post", 3, "click"]],
+        consts: [[1, "big"], ["fxLayout", "row", "fxLayout.xs", "column", 1, "wrapper", 3, "ngStyle"], ["class", "cards", "fxLayout", "row", "fxLayoutAlign", "center center", 3, "id", 4, "ngFor", "ngForOf"], ["class", "mapping", "fxLayout", "column", "fxLayoutAlign", "center center", "fxLayoutGap", "1vh", 4, "ngIf"], ["fxLayout", "row", "fxLayoutAlign", "center center", 1, "cards", 3, "id"], ["fxLayout", "row wrap", "fxLayoutAlign", "center center", "fxLayoutGap", "5vw", "fxLayoutGap.xs", "0"], ["class", "contact", 3, "contact", 4, "ngFor", "ngForOf"], [1, "contact", 3, "contact"], ["fxLayout", "column", "fxLayoutAlign", "center center", "fxLayoutGap", "1vh", 1, "mapping"], [1, "rule"], ["fxLayout", "column", "fxLayoutGap", "5vh"], [4, "ngFor", "ngForOf"], [1, "post", 3, "click"]],
         template: function ContactsComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 0);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "h1", 1);
+            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "span", 2);
+            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](2, ContactsComponent_div_2_Template, 4, 2, "div", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](3, "Thank");
+            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipe"](3, "async");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, " You");
+            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, " --> ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](5, "div", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](5, " --> ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](6, ContactsComponent_div_6_Template, 4, 2, "div", 4);
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipe"](7, "async");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](8, " --> ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](9, " --> ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](10, ContactsComponent_div_10_Template, 4, 1, "div", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](6, ContactsComponent_div_6_Template, 4, 1, "div", 3);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
           }
 
           if (rf & 2) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
 
             _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpureFunction1"](5, _c0, ctx.top + "vw"));
 
             _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind1"](7, 3, ctx.ncontacts));
+            _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind1"](3, 3, ctx.ncontacts));
 
             _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
 
@@ -3877,7 +3865,7 @@
           // },
           {
             name: 'Shobhit Singh',
-            post: 'Manager, Hospitality & Transport',
+            post: 'Organizer, Hospitality & Transport',
             number: '8743943887',
             email: 'singhshobhit304@gmail.com',
             fblink: '',
@@ -3885,7 +3873,7 @@
             insta: 'https://www.instagram.com/shobhit_singh_801/'
           }, {
             name: 'Mayank Sarwa',
-            post: 'Manager, Hospitality & Transport',
+            post: 'Organizer, Hospitality & Transport',
             number: '9079035719',
             email: 'sarwamayank@gmail.com',
             fblink: '',

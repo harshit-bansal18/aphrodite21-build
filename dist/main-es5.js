@@ -342,7 +342,7 @@
             heading: 'Influencers',
             description: "Antaragni is always about unforetold tales and mysteries. The Antaragni Influencer Program is another milestone in bringing forth new prosperous relationships and letting the phoenix spread its wing.",
             link: 'https://influencers-a0c05.firebaseapp.com/',
-            background: '/assets/bgs/influencers.png',
+            background: '/assets/bgs/influencers.jpg',
             redirect: true
           }, {
             heading: 'Past Sponsors',
